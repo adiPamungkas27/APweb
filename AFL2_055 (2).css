@@ -1,0 +1,623 @@
+
+body {
+	background-image(https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/indizone/2022/10/03/d5s0zze/terinspirasi-dari-alat-musik-sasando-gedung-di-ntt-ini-malah-jadi-tujuan-wisata-warga80.jpg);
+	font-family: "Arial", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	background-size: cover; /* Ukuran gambar menutupi seluruh latar belakang */
+	background-position: center; /* Posisi gambar di tengah */
+	background-repeat: no-repeat; /* Gambar tidak diulang */
+  }
+  
+  
+  .background-layer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1; /* Gambar lapisan paling belakang */
+	opacity: 0.5; /* Transparansi gambar */
+}
+.foreground-content {
+	position: relative;
+	z-index: 1; /* Konten di depan gambar lapisan paling belakang */
+}
+  
+  .page-wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0 auto;
+	max-width: 2100px;
+  }
+  
+  /* Nav */
+  nav {
+	background-color: rgb(254, 254, 224);
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+  }
+  .backgrounds{
+	
+	text-align:center;
+	background-color: #171640;
+	color:white;
+	width: 600px;  /* Lebar div */
+            height: 50px; /* Tinggi div */
+            background-color: #171640; /* Warna latar belakang div */
+            padding: 20px;  /* Padding di dalam div */
+            margin: 0 auto; /* Mengatur div agar berada di tengah secara horizontal */
+            border: 2px  #ccc; /* Border di sekitar div */
+        }
+  
+  
+  .nav-logo-title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #06d6a0;
+	margin: 0;
+	padding: 1rem;
+  }
+  
+  .nav-logo-title a {
+	color: rgb(15, 15, 15);
+	text-decoration: none;
+	padding: 5px 10px;
+  }
+  
+  .nav-logo-title img {
+	content: url("https://dieng.blob.core.windows.net/webmaster/2021/09/LOGO-UC-FIX-SEP-2021-01.png");
+	height: 50px;
+	width: auto;
+	margin-right: 10px;
+  }
+  nav ul {
+	display: flex;
+  }
+  
+  nav ul li {
+	list-style: none;
+  }
+  
+  nav ul li a {
+	color:#ff5400;
+	text-decoration: none;
+	font-weight: 600;
+	padding: 10px 30px;
+  }
+  
+  nav ul li a:hover {
+	border-radius: 10px;
+	background-color: #7209b7;
+	color: hsl(67, 88%, 73%);
+  }
+  #header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+   
+	color: #0e0e0f;
+	text-align: center;
+	margin-top: 250px;
+	padding: 2rem;
+  }
+  .centered-text {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 1.5rem;           
+    text-align bold: center;
+	    
+}
+.bold-text {
+    font-weight: bold; /* Membuat teks menjadi tebal */
+    font-size: 24px;   /* Mengubah ukuran teks */
+}
+
+
+  
+  .header-texts {
+	width: 100%;
+	position: relative;
+	vertical-align: bottom;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  
+  .header-texts h1 {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+	color: #151616;
+	text-align: center;
+  }
+  
+  .header-texts h3 {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	text-align: center;
+  }
+  
+  .header-texts p {
+	font-size: 1.5rem;
+	line-height: 2.5rem;
+	text-align: center;
+  }
+  
+  .header-texts abbr {
+	color: #5856d9;
+	text-decoration: underline;
+  }
+  .content-aside {
+  background-color: rgb(244, 244, 244);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.content {
+  background-color: beige;
+  width: 70%;
+  padding: 2rem;
+}
+
+.content-first h2 {
+  margin-bottom: 1rem;
+  color: #ff5400;
+}
+
+.content-first p {
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  color: #264143;
+  text-align: justify;
+}
+
+.content-second {
+  color: #ff5400;
+}
+
+.content-second h2, .content-second h4 {
+  margin-bottom: 1rem;
+}
+
+.content-second h4 {
+  color: #ff5400;
+  font-size: 28px;
+  position: center;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.content-second p {
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  color: #264143;
+  text-align: justify;
+}
+
+aside {
+  width: 15%;
+  border-left: solid #7209b7;
+  padding: 50px;
+  margin-bottom: 100px;
+}
+
+aside h2 {
+  margin-bottom: 1rem;
+  color :#7209b7;
+}
+
+aside ul {
+  margin-bottom: 2rem;
+
+}
+
+aside ul li {
+  margin-bottom: 1rem;
+
+}
+
+aside ul li a {
+  color: #ff5400;
+  text-decoration: none;
+}
+
+aside ul li a:hover {
+  color :#ff5400;
+  background-color: #f5f3ec;
+}
+
+.articles .row-first .article {
+	display: block;
+	width: 100%;
+	height: auto; /* Sesuaikan dengan proporsi asli gambar */
+	border-radius: 10px;
+	animation: slideRightLeft 10s linear infinite; /* Animasi translasi dari kiri ke kanan dan sebaliknya dengan durasi 10 detik */
+  }
+  
+  @keyframes slideRightLeft {
+	0%, 100% {
+	  transform: translateX(-100%); /* Mulai dari luar sisi kiri */
+	}
+	50% {
+	  transform: translateX(100%); /* Puncak animasi di luar sisi kanan */
+	}
+  }
+  
+ 
+  
+
+.articles table .row-first .article  img {
+  
+  width: 100%;
+}
+
+.articles table .row-first .article img {
+
+  width: 100%;
+}
+
+.articles table .row-first .article: img {
+  content-image: url();
+}
+
+.articles table .row-first .article: img {
+  width: 5%;
+  height: 5%;
+  border-radius: 10px;
+  
+  margin-right: 15px;
+}
+/* Style for the article container */
+.article {
+	background-color: #b5c4f035;
+	border: 1px solid #ff5400;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 10px;
+	text-align: justify;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.658);
+	width: 425px;
+  }
+  
+  /* Style for the article title */
+  .article h3 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 10px;
+  }
+  
+  /* Style for the article content */
+  .article p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-top: 0;
+	margin-bottom: 20px;
+	display: -webkit-box;
+	-webkit-line-clamp: 6;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+  }
+  
+  /* Style for the "See More" link */
+  .article a {
+	display: inline-block;
+	background-color: #7209b7;
+	color: #ffd166;
+	padding: 20px;
+	border-radius: 10px;
+	text-decoration: none;
+	margin-top: 10px;
+	vertical-align: middle;
+	
+  }
+  
+  .article a:hover {
+	background-color: #ff5400;
+	color: #264143;
+  }
+  
+  /* Style for the long article */
+  .article-long {
+	background-color: rgb(206, 206, 182);
+	border: 1px solid #f2ebe9;
+	border-radius: 3px;
+	padding: 14px;
+	margin: 11px;
+	text-align: justify;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.932);
+  }
+  
+  /* Style for the long article title */
+  .article-long h3 {
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 20px;
+  }
+  
+  /* Style for the table */
+  table {
+	width: 100%;
+	border-collapse: collapse;
+  }
+  
+  /* Style for the first row of articles */
+  .row-first {
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  /* Style for the second row of articles */
+  .row-second {
+	display: flex;
+	align-items: center;
+  }
+  
+  /* Style for the image */
+  .articles img {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+  }
+  
+  /* Style for the creativity section */
+  #creativity {
+	background-color: #7209b7;
+	padding: 60px 0;
+  }
+  
+  .creativity-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 1920px;
+	margin: 0 auto;
+  }
+  
+  .mini-one,.mini-two,.mini-three,.mini-four {
+	flex-basis: calc(23% - 20px);
+	margin: 20px;
+	background-color:#f4da85;
+	border-radius: 5px;
+	overflow: hidden;
+	position: relative;
+	transition: transform 0.1s ease-in-out;
+  }
+  
+  .mini-one:hover,.mini-two:hover,.mini-three:hover,.mini-four:hover {
+	transform: translateY(+5px);
+  }
+  
+  .mini-content {
+	padding: 30px;
+	color: #264143;
+  }
+  
+  .mini-content h2 {
+	font-size: 24px;
+	margin-top: 0;
+  }
+  
+  .mini-content p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 0;
+  }
+  
+  .mini-one img,.mini-two img,.mini-three img,.mini-four img {
+	content: url(https://timexkupang.fajar.co.id/wp-content/uploads/2022/10/Johny-Asadoma-.jpg);
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+	object-position: center;
+  }
+  .mini-one h2, .mini-two h2, .mini-three h2, .mini-four h2 {
+	color: #264143;
+	font-size: 20px;
+  }
+
+  footer {
+	color: #283044;
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  .footer-logo h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+  }
+  
+  .footer-logo p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+  }
+  
+  .footer-form p {
+	margin-top: 100px;
+	font-size: 20px;
+  }
+  
+  .footer-form label {
+	font-size: 18px;
+	margin-bottom: 5px;
+  }
+  
+  .footer-form input[type="text"] {
+	border: none;
+	border-bottom: 2px solid #ddd;
+	outline: none;
+	font-size: 16px;
+	padding: 10px;
+	margin-bottom: 10px;
+  }
+  
+  .footer-form input[type="text"]:focus {
+	border-bottom: 2px solid #6a4fca;
+  }
+  
+  .footer-form select {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	background-color: #f5f5f5;
+	margin-bottom: 10px;
+  }
+  
+  .footer-form select:focus {
+	outline: none;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .footer-form select,
+  .footer-form input[type="radio"] {
+	font-size: 18px;
+	margin-bottom: 10px;
+  }
+  
+  .footer-form button {
+	margin-top: 40px;
+	font-size: 20px;
+	background-color: #7209b7;
+	color: #d1dde1;
+	padding: 12px 24px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+  }
+  
+  .footer-form button:hover {
+	background-color: #ff5400;
+	color: #264143;
+  }
+  
+  .footer-credit {
+	font-size: 12px;
+	text-align: right;
+  }
+/* RESPONSIVE NYA */
+
+@media only screen and (max-width: 640px) {
+	nav {
+	  flex-direction: column;
+	  justify-content: center;
+	  text-align: center;
+	  max-width: 400px;
+	  padding: 5px 10px ;
+	}
+  
+	nav ul {
+	  display: flex;
+	}
+  
+	nav ul li a {
+	  padding: 5x 10px;
+	}
+  
+	#header {
+	  display: inline;
+	  width: 500px;
+	  text-align: justify;
+	}
+  
+	.header-filler {
+	  overflow: hidden;
+	}
+  
+	.header-filler:before,
+	.header-filler:after {
+	  content: "";
+	  display: block;
+	  position: relative;
+	  top: 300px;
+	  left: 85%;
+	  transform: translate(-50%, -50%);
+	  width: 50px;
+	  height: 50px;
+	  background-color: #ff9bcd;
+	  animation: move 2s infinite alternate;
+	}
+  
+	.content-aside {
+	  flex-direction: column;
+	  width: 450px;
+	}
+  
+	.content-aside aside {
+	  margin-top: 0;
+	  width: 100%;
+	  border-left: 0;
+	  border-top: solid #d3f59e;
+	  border-bottom: solid #264143;
+	}
+  
+	.article {
+	  max-width: 300px;
+	}
+  
+	.articles table {
+	  margin-top: 0;
+	  
+	}
+  
+	.articles table tr {
+	  flex-direction: column;
+	  text-align: center;
+	  gap: 2rem;
+	}
+  
+	.articles table tr.row-second {
+	  flex-direction: column-reverse;
+	}
+  
+	.articles table .row-first .article img {
+	  content: url(https://source.unsplash.com/featured/300x201);
+	  width: 100%;
+	}
+	
+	.articles table .row-first .article:nth-child(2) img {
+	  content: url(https://source.unsplash.com/featured/300x202);
+	  width: 100%;
+	}
+	
+	.articles table .row-first .article:nth-child(3) img {
+	  content: url(https://source.unsplash.com/featured/300x203);
+	}
+	
+	.articles table .row-second td:nth-child(2) img {
+	  width: 100%;
+	  border-radius: 10px;
+	  content: url(https://source.unsplash.com/featured/330x204);
+	}
+  
+	.creativity-wrapper {
+	  display: flex;
+	  flex-direction: column;
+	}
+  
+	.footer-credit{
+	  text-align: left;
+	}
+  }
